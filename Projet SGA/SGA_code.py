@@ -10,9 +10,6 @@ import time
 
 
 
-
-
-
 def connexion_BD():
     try:
         path = r'C:\Projet SGA\DB\BD.db'
@@ -105,11 +102,7 @@ def Rechercher_Seance(date,Niveau):
     else:
         print("CELUI LA")
         return None
-
-    
-
-        
-     
+   
 
 
 
@@ -161,9 +154,6 @@ def Recuperer_Cours_Retard(date,salle,niveau):
     else:
         print("eazer")
         return None
-
-
-
 
 
 
